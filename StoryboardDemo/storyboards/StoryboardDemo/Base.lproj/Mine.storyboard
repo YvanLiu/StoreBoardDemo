@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oo5-3s-689">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="A9f-XB-mNm">
+            <objects>
+                <navigationController id="Oo5-3s-689" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="TB_mine_press" id="Nd6-SY-JML"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IGr-eh-Fgc">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="udE-tZ-mJc" kind="relationship" relationship="rootViewController" id="cmG-zx-mvh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b91-G0-XDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2887" y="1787"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="kzF-p7-dpd">
+            <objects>
+                <viewController id="udE-tZ-mJc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nrk-ka-Ty2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="khc-Gl-JUN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的" id="PoH-oF-qlG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HD4-Qi-eHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2119" y="1787"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TB_mine_press" width="16" height="16"/>
+    </resources>
+</document>
