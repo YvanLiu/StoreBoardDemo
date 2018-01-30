@@ -22,7 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-
+- (IBAction)tap:(UITapGestureRecognizer *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)setImageName:(NSString *)imageName {
     _imageName = imageName;
     dispatch_async(dispatch_get_main_queue(), ^{
