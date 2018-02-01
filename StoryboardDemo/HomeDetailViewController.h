@@ -10,5 +10,7 @@
 
 @interface HomeDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
 @property (strong, nonatomic) NSString *imageName;
+@property (strong, nonatomic) NSString *content;
 @end

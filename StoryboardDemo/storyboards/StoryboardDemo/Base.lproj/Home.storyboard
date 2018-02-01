@@ -47,7 +47,7 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HOMECELLID" rowHeight="427" id="Gc2-J7-PLn" customClass="HomeCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HOMECELLID" rowHeight="427" id="Gc2-J7-PLn" customClass="HomeCell">
                                         <rect key="frame" x="0.0" y="148" width="375" height="427"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gc2-J7-PLn" id="w5t-5L-f6S">
@@ -55,7 +55,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QB7-k5-rPv">
-                                                    <rect key="frame" x="20.666666666666629" y="0.0" width="335" height="402"/>
+                                                    <rect key="frame" x="20.333333333333343" y="0.0" width="335" height="402"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="QB7-k5-rPv" secondAttribute="height" multiplier="5:6" id="K2s-tn-5oN"/>
                                                     </constraints>
@@ -112,7 +112,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wyc-Lr-DaG">
-                                <rect key="frame" x="0.0" y="87.999999999999972" width="375" height="450.33333333333326"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="450"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wyc-Lr-DaG" secondAttribute="height" multiplier="5:6" id="cyt-dp-hbq"/>
@@ -139,7 +139,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFK-kl-EBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="86b-ug-ncO">
                     <connections>
-                        <action selector="tap:" destination="7E5-x9-n07" id="Ehr-mW-ffk"/>
+                        <action selector="tap:" destination="7E5-x9-n07" id="IQj-jM-hlc"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

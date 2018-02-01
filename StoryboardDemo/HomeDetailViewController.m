@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   
 }
 - (IBAction)tap:(UITapGestureRecognizer *)sender {
     [self.navigationController popViewControllerAnimated:YES];
@@ -29,6 +30,12 @@
     _imageName = imageName;
     dispatch_async(dispatch_get_main_queue(), ^{
         self.iconImageView.image = [UIImage imageNamed:imageName];
+    });
+}
+- (void)setContent:(NSString *)content {
+    _content = content;
+    dispatch_async(dispatch_get_main_queue(), ^{
+    self.contentLabel.text = content;
     });
 }
 
